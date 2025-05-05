@@ -11,6 +11,6 @@ const fixtureSchema = new Schema({
     awayTeam: String, 
 });
 
-const Fixtures = mongoose.model('fixtures', fixtureSchema);
+const Fixture = mongoose.model('fixture', fixtureSchema);
 
-export default Fixtures;
+export default Fixture;
